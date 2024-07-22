@@ -1,5 +1,9 @@
 <?php
 
+function sum($a, $b) {
+    return $a + $b;
+}
+
 function printr($var, $dump = false) {
 //    $print = print_r($var, true);
 //    echo $print ."<br />";
@@ -17,6 +21,8 @@ printr(a);
 
 $b = 10;
 printr($b);
+
+printr(sum(a, $b));
 
 $str = "some string";
 printr($str);
