@@ -2,6 +2,10 @@
 
 function dbConnect($dbName = "gasheri_php")
 {
+    // printr($_ENV);
+    // $dbHost = $_ENV["localhost"];
+    // $dbUsername = $_ENV["username"];
+    // $dbPassword = $_ENV["password"];
     $dbHost = "localhost";
     $dbUsername = "root";
     $dbPassword = "root";
