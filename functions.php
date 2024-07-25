@@ -17,6 +17,7 @@ function printr($var, $dump = false) {
 
 CONST a = 5;
 
+
 printr(a);
 
 $b = 10;
