@@ -13,7 +13,7 @@ $str = "some string";
 echo $str ."<br />";
 
 $bool = true;
-
+print("----");
 print_r($bool); 
 echo "<br />";
 var_dump( $bool );
