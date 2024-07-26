@@ -8,7 +8,7 @@ function printr($var = "")
     }
     else 
     {
-        echo "<pre>". print_r($var, 1) . "</pre>";
+        echo "<pre>". print_r($var, 2) . "</pre>";
     }
 }
 
