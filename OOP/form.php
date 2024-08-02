@@ -1,6 +1,6 @@
 <?php
-require('../utils.php');
-require('./formValidation.php');
+                                                                    require('./Utils.php');
+                                                                    require('./FormValidation.php');
 
 $validation = new FormValidation();
 $validationDetails = $validation->validate();
