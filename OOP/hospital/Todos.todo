@@ -1,0 +1,13 @@
+persons:
+- users
+- patients
+login
+- clerk
+- finance
+- doctor
+- lab
+- pharmacy
+appointments
+symptoms & diagnosis
+prescriptions
+payments

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "aplus/database": "^3.4",
+        "aplus/validation": "^2.6"
+    }
+}
