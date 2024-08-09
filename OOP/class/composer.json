@@ -1,0 +1,6 @@
+{
+    "require": {
+        "aplus/database": "^2.10",
+        "fakerphp/faker": "^1.23"
+    }
+}
