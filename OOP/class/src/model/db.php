@@ -25,10 +25,10 @@ class Db
 
     public function get($table = null, $limit = null, $offset = 0)
     {
-        $results = $this->database->select('*')
+        $fields = join(", ", $this->allowedFields);
+        $results = $this->database->select($fields)
             ->from($table ?? $this->table);
     
-
         if($limit) {
             if($offset) {
                 $results = $results->limit($limit, $offset);
